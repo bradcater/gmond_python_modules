@@ -6,10 +6,10 @@ modules {
     language = 'python'
 
     param status_url {
-      value = 'http://nginx_status'
+      value = 'http://localhost:9999'
     }
     param nginx_bin {
-      value = '/usr/sbin/nginx'
+      value = '/usr/local/nginx/sbin/nginx'
     }
     param refresh_rate {
       value = '15'
