@@ -6,7 +6,7 @@ modules {
     language = 'python'
 
     param status_url {
-      value = 'http://localhost:9999'
+      value = 'http://localhost:9999/nginx_status'
     }
     param nginx_bin {
       value = '/usr/local/nginx/sbin/nginx'
